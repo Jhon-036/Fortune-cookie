@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.title {
+    width: 350px;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    color: #ffff;
+    margin-top: 7rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 166, 69, 1);
+}
+
+.bg--phrase {
+    width: 470px;
+    height: 160px;
+    background-image: url(/rectangle2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.text--phrase {
+    font-size: 20px;
+    font-family: 'Fredoka', sans-serif;
+    color: #727272;
+    padding: 15px;
+}
+
+.container {
+    text-align: center;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.btn {
+    width: 170px;
+    height: 38px;
+    border-radius: 7px;
+    border: 1.5px solid #893446;
+    background: #FFA645;
+    font-size: 16px;
+    font-family: 'Fredoka', sans-serif;
+    color: #893446;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
+.author {
+    width: 245px;
+    height: 38px;
+    background: rgba(255, 255, 255, 0.70);
+    color: #727272;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 14px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2rem;
+}
